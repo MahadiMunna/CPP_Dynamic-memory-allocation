@@ -1,0 +1,12 @@
+int x; -> here x taking 4 byte in memory.
+
+There are two types of memory
+1. stack memory(compile time memory)->Error during compilation like forget to semiclone.
+2. Heap memory(runtime memory)->10/0 is a runtime error.
+
+Stack problems:
+-after declare memory increase not possible.
+-after returning value it clears memory and further that variable will be unusable.
+
+    int *a=new int[5];
+this create memory location in heap memory before compile that means direct in the heap memory not in stack memory.
